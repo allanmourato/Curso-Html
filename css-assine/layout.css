@@ -1,0 +1,76 @@
+
+header {
+
+	height: 60px;
+	line-height: 60px;
+	background-color: #fff;
+	border-bottom: 1px solid  #ccc;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+header img {
+
+	margin-top: 12px;
+
+}
+
+
+
+.layout-assinatura {
+
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 50px;
+
+}
+
+.layout-botao {
+
+	text-align: center;
+}
+
+.rodape {
+
+	color: #fff;
+	text-align: center;
+	background-color: #424242;
+	padding: 10 0 10 0;	
+}
+
+
+@media (max-width: 767px) {
+
+	.rodape {
+
+		color: #fff;
+		text-align: center;
+		background-color: #424242;
+		padding: 10 0 10 0;	
+	}
+}
+
+
+@media (min-width: 768px) {
+
+	.rodape{
+
+		position: fixed;
+
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+
+		color: #fff;
+		text-align: center;
+		background-color: #424242;
+		padding: 10 0 10 0;
+
+
+	}
+}
+
